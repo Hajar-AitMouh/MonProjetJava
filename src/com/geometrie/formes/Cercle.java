@@ -53,5 +53,6 @@ public boolean estPlusGrandQue (Cercle autre) {
 public static int getNbCercles(){
 	return nbCercles;
 }
+
 }
 

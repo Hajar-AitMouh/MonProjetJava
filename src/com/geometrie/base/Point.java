@@ -21,4 +21,9 @@ public  void mon_etat() {
 public double distance (Point p) {
 	return Math.sqrt((this.abs-abs)*(this.abs-abs)+(this.ord-ord)*(this.ord-ord));
 }
+@Override
+public String toString() {
+	return "Point (abs=" + abs + ", ord=" + ord + ")";
+}
+
 }
